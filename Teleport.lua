@@ -15,7 +15,7 @@ end
 
 --📦 Persist on teleport
 local reexecuteCode = [[
-loadstring(game:HttpGet("https://pastebin.com/raw/YOUR_SCRIPT_URL_HERE"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nmsjayden/Teleport/refs/heads/main/Teleport.lua"))()
 ]]
 queue_on_teleport(reexecuteCode)
 
